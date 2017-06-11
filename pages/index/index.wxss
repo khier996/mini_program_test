@@ -19,3 +19,33 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.index_page_banner {
+  height: 400rpx;
+  background-color: #00A3EC;
+  text-align: center;
+}
+
+.index_page_title {
+}
+
+.index_page_cards {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  border-left: 5px solid #00a3ec;
+  padding: 20px;
+}
+
+.card_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+

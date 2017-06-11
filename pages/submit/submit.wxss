@@ -1,0 +1,43 @@
+/* pages/submit/submit.wxss */
+
+.submit_page_banner {
+  height: 400rpx;
+  background-color: #00A3EC;
+  position: relative;
+}
+
+.submit_page_avatar {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.submit_page_title {
+  position: absolute;
+  right: 40rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.submit_page_subtitle {
+  color: grey;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.submit_page_fml_textarea {
+  width: 80%;
+  border-left: 3px solid #00A3EC;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.submit_page_name_textarea {
+  height: 80rpx;
+  width: 300rpx;
+  border-left: 3px solid #00A3EC;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}

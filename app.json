@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/submit/submit"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,13 +20,13 @@
         "pagePath": "pages/index/index",
         "iconPath": "image/form.png",
         "selectedIconPath": "image/form-hover.png",
-        "text": "Form"
+        "text": "Random"
       },
       {
-        "pagePath": "pages/wagon/wagon",
+        "pagePath": "pages/submit/submit",
         "iconPath": "image/about.png",
         "selectedIconPath": "image/about-hover.png",
-        "text": "About"
+        "text": "Submit your FML"
       }
     ]
   }

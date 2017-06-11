@@ -1,10 +1,13 @@
 //index.js
 //获取应用实例
+const AV = require('../../utils/av-weapp-min.js');
+const Fml = require('../../models/fml.js');
+
 var app = getApp()
 Page({
   data: {
-    motto: 'Yo! what up!',
-    userInfo: {}
+    userInfo: {},
+    fml: [{ nickname: 'Johny', message: 'today, I slept for 3 hours, FML' }, { nickname: 'Johny', message: 'today, I slept for 3 hours, FML' }]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -21,10 +24,8 @@ Page({
       that.setData({
         userInfo:userInfo
       })
-    })
-  },
-
-  hitMe: function (e) {
-    console.log('test')
-  }
+    }),
+      new AV.Query('Fml').descending('createdAt').find().then(fml => this.setData({ fml })).catch(console.error);
+    }, 
 })
+

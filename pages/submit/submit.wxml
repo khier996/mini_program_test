@@ -1,0 +1,21 @@
+
+<view class="submit_page_banner">
+  <image class="submit_page_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class='submit_page_title'>Submit your FML</text>
+</view>
+
+<view class="submit_page_body">
+  <text class='submit_page_subtitle'>Share the most f...ed up moments of your life</text>
+
+  <view class="submit_page_form">
+    <form bindsubmit="bindFormSubmit">
+      <view class="user-input">
+        <textarea class="input-height submit_page_name_textarea" name="username" maxlength="-1" value="{{userInfo.nickName}}" />
+        <textarea class="input-height submit_page_fml_textarea" name="message" maxlength="-1" />
+      
+        <button type="primary" form-type="submit">Send</button>
+      </view>
+    </form>
+
+  </view>
+</view>
